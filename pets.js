@@ -11,7 +11,11 @@
 const pets = ['Cat', 'Dog', 'Hamster', 'Guinea Pig', 'Salmon']
 
 function main() {
-    // implemented
+    let number = 1;
+    for (const pet of pets) {
+        console.log(`${number}. ${pet}`);
+        number += 1;
+    }
 }
 
 main()
