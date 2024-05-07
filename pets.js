@@ -11,6 +11,7 @@
 const pets = ['Cat', 'Dog', 'Hamster', 'Guinea Pig', 'Salmon']
 
 function main() {
+    // implemented
 }
 
 main()
