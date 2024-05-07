@@ -54,7 +54,8 @@ const dogs = [
 
 function main(sortBy) {
     console.log('sortBy:', sortBy)
-
+    const sorted = dogs.sort((a, b) => a.age - b.age);
+    console.log(sorted);
 }
 
 main(process.argv[2])
