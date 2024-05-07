@@ -54,7 +54,8 @@ const dogs = [
 
 function main(sortBy) {
     console.log('sortBy:', sortBy)
-
+    const sortedDogs = dogs.sort((a, b) => a.name.localeCompare(b.name));
+    console.log(sortedDogs);
 }
 
 main(process.argv[2])
